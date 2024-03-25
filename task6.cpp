@@ -5,10 +5,10 @@ using namespace std;
 
 
 void clreol() {
-    cout << "\r"<< "\033[K" << flush; 
+    cout << "\r"<< "\033[K"; 
 }
 void clreol(int count) {
-    cout << "\033[" << count << "D" << "\033[K" << flush; 
+    cout << "\033[" << count << "D" << "\033[K"; 
 }
 
 int main() {
