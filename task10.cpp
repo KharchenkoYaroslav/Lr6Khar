@@ -11,7 +11,7 @@ void reverse(string &str, int count = 100) {
     for (int i = count - 1; i >= 0; i--) { 
         str += temp[i]; 
     }
-    for (int i = count; i < temp.length(); i++){
+    for (int i = count; i < (int)temp.length(); i++){
         str += temp[i]; 
     }
 }

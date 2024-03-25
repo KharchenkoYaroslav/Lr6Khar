@@ -1,5 +1,5 @@
-#include <iostream >
-#include <cstdlib >
+#include <iostream>
+#include <cstdlib>
 using namespace std;
 class myclass
 {
