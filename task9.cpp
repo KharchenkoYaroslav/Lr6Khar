@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdio> 
-#include <ctime> // Include for time_t and localtime
+#include <ctime> 
 using namespace std;
 
 class Date
